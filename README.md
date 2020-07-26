@@ -26,3 +26,10 @@ There are a number of barriers that prevent organizations from successfully impl
 (1) Install VMware on your host operating system. In VMware install the RHEL8 operating system. In RHEL8 install Docker(first you have to install all the requirements of Linux and configure yum and then install docker on RHEL8)
 (2) After completion of the docker installation on Linux, create a docker image for the machine learning model to run and predict using a container. So make a directory and create a Dockerfile inside that directory and then use the docker build command to create the required image. (it will download and install everything) Command: docker build -t mlopsimg:v1 .
 ![1](https://user-images.githubusercontent.com/41663027/88486594-63891f00-cf9c-11ea-810e-fa058ae9730d.PNG)
+
+(3) after the creation of the image install Jenkins on RHEL8 and start Jenkins services. Jenkins needs java to start services, so install java first. After installation, start Jenkins and copy-paste the IP of Linux on the browser with port 8080(Jenkins work on the port 8080) to access Jenkins GUI. example: 192.162.152.123:8080
+# sudo yum install jenkins java-1.8.0-openjdk-devel   
+# sudo yum install jenkins 
+# sudo systemctl start jenkins
+
+(4) Now create account on github and make a repository. Give anyname, i have given Project-MLops. Also make a folder in your windows or any os where you are working on machine learning code and paste all the required files in the same folder so that we can connect it with our github repository and push our updated work when ever we want.
