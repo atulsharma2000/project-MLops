@@ -20,3 +20,9 @@ There are a number of barriers that prevent organizations from successfully impl
 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧
 - The aim is to automate a machine learning architecture and to predict only if accuracy is more than 90%. If accuracy is less than 90%, then it will tweak the machine learning model architecture automatically. Jenkins will be checking GitHub repositories every second for any changes. So as soon as a developer commits and pushes, Jenkins will start its jobs.
 - Tech n Tools: ML libraries(TensorFlow, Keras, NumPy, Pandas, etc) to create a prediction model and Docker image for further automation, Jenkins(a great DevOps tool for automation), Docker for OS-level virtualization(to create images and containers on RHEL8), Red Hat Enterprise Linux 8, VMware(to run RHEL8 on our host operating system).
+
+
+𝐄𝐱𝐩𝐥𝐚𝐧𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐈𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧
+(1) Install VMware on your host operating system. In VMware install the RHEL8 operating system. In RHEL8 install Docker(first you have to install all the requirements of Linux and configure yum and then install docker on RHEL8)
+(2) After completion of the docker installation on Linux, create a docker image for the machine learning model to run and predict using a container. So make a directory and create a Dockerfile inside that directory and then use the docker build command to create the required image. (it will download and install everything)
+![1](https://user-images.githubusercontent.com/41663027/88486594-63891f00-cf9c-11ea-810e-fa058ae9730d.PNG)
