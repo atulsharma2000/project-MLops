@@ -38,6 +38,8 @@ wer have created three files here...
 ![4](https://user-images.githubusercontent.com/41663027/88486984-3722d200-cf9f-11ea-9d82-a34df58729f0.PNG)
 ![42](https://user-images.githubusercontent.com/41663027/88486992-4275fd80-cf9f-11ea-952c-4f254b2bef5a.PNG)
 ![4545](https://user-images.githubusercontent.com/41663027/88486996-4bff6580-cf9f-11ea-893c-e1d491884588.PNG)
-- now adding, commiting and pushing our files on the github repository
+- now adding, commiting and pushing our files on the github repository.
 ![gittt](https://user-images.githubusercontent.com/41663027/88487040-9c76c300-cf9f-11ea-8bcc-3efdab670522.PNG)
+- this is the repository i made and pushed all the files for my ML project.
+![22](https://user-images.githubusercontent.com/41663027/88487076-c8924400-cf9f-11ea-820b-157be490c295.PNG)
 
