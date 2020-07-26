@@ -50,5 +50,11 @@ wer have created three files here...
 ![2](https://user-images.githubusercontent.com/41663027/88487233-d5636780-cfa0-11ea-963f-5bcb32e15cbc.PNG)
 
 (6) JOB-2: it will only trigger after the completion of job1. Job2 will run a container from ml_py_img image we created and it also copy-pastes the mlops_code repository files from RHEL8 to container's /root/mlops_code directory. And as soon as the command runs, it will start executing the Training_model.py file.
+This .py file will create a result.txt file which will be contaning the accuracy of the model.
 ![jjj2](https://user-images.githubusercontent.com/41663027/88487277-3e4adf80-cfa1-11ea-9be9-283c26f54fd0.PNG)
 ![j2222](https://user-images.githubusercontent.com/41663027/88487344-e496e500-cfa1-11ea-9a9a-48319f09b1f0.PNG)
+
+(7) JOB-3:  this job will check the accuracy from the file result.txt. If the accuracy is less than the required accuracy then this job will automatically start adding the combination of the layers to increase the accuracy of the  model.
+![j33](https://user-images.githubusercontent.com/41663027/88487426-a948e600-cfa2-11ea-8cc7-df6b08040fa0.PNG)
+![jttjttjt](https://user-images.githubusercontent.com/41663027/88487446-c7aee180-cfa2-11ea-8168-65c5e160fa26.PNG)
+
