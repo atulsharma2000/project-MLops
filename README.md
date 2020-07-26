@@ -46,3 +46,5 @@ wer have created three files here...
 (5) In Jenkins create JOB-1. It will Pull the Github repo automatically whenever the developer commits and pushes the repository to Github. This job will copy all the repository files in a directory /root/mlops_code/ in our RHEL8 operating system.
 - here i used POLL SCM , "Poll SCM" polls the SCM periodically for checking if any changes/ new commits were made and shall build the project if any new commits were pushed since the last build.
 ![j1](https://user-images.githubusercontent.com/41663027/88487172-6554e180-cfa0-11ea-94a2-056e977751bb.PNG)
+- all the repository files are now pasted in our RhEL folder.(neglect the other files for a while)
+![2](https://user-images.githubusercontent.com/41663027/88487233-d5636780-cfa0-11ea-963f-5bcb32e15cbc.PNG)
