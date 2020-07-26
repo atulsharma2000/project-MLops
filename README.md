@@ -22,7 +22,7 @@ There are a number of barriers that prevent organizations from successfully impl
 - Tech n Tools: ML libraries(TensorFlow, Keras, NumPy, Pandas, etc) to create a prediction model and Docker image for further automation, Jenkins(a great DevOps tool for automation), Docker for OS-level virtualization(to create images and containers on RHEL8), Red Hat Enterprise Linux 8, VMware(to run RHEL8 on our host operating system).
 
 
-𝐄𝐱𝐩𝐥𝐚𝐧𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐈𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧
+𝐄𝐱𝐩𝐥𝐚𝐧𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐈𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧:
 (1) Install VMware on your host operating system. In VMware install the RHEL8 operating system. In RHEL8 install Docker(first you have to install all the requirements of Linux and configure yum and then install docker on RHEL8)
 (2) After completion of the docker installation on Linux, create a docker image for the machine learning model to run and predict using a container. So make a directory and create a Dockerfile inside that directory and then use the docker build command to create the required image. (it will download and install everything) Command: docker build -t mlopsimg:v1 .
 ![1](https://user-images.githubusercontent.com/41663027/88486594-63891f00-cf9c-11ea-810e-fa058ae9730d.PNG)
