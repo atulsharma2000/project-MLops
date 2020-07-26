@@ -1,4 +1,4 @@
-# == 𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐨𝐧 𝐨𝐟 𝐌𝐋 𝐰𝐢𝐭𝐡 𝐃𝐞𝐯𝐎𝐩𝐬 𝐮𝐬𝐢𝐧𝐠 𝐎𝐒-𝐥𝐞𝐯𝐞𝐥 𝐯𝐢𝐫𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧 ==
+# 𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐨𝐧 𝐨𝐟 𝐌𝐋 𝐰𝐢𝐭𝐡 𝐃𝐞𝐯𝐎𝐩𝐬 𝐮𝐬𝐢𝐧𝐠 𝐎𝐒-𝐥𝐞𝐯𝐞𝐥 𝐯𝐢𝐫𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧
                             
 ![my woo](https://user-images.githubusercontent.com/41663027/88486344-af3ac900-cf9a-11ea-90b0-77c5b6245e2d.png)
 
@@ -33,3 +33,9 @@ There are a number of barriers that prevent organizations from successfully impl
 - sudo systemctl start jenkins
 
 (4) Now create account on github and make a repository. Give anyname, i have given Project-MLops. Also make a folder in your windows or any os where you are working on machine learning code and paste all the required files in the same folder so that we can connect it with our github repository and push our updated work when ever we want.
+wer have created three files here...
+![333](https://user-images.githubusercontent.com/41663027/88486978-2d996a00-cf9f-11ea-85c7-a55f373b0236.PNG)
+![4](https://user-images.githubusercontent.com/41663027/88486984-3722d200-cf9f-11ea-9d82-a34df58729f0.PNG)
+![42](https://user-images.githubusercontent.com/41663027/88486992-4275fd80-cf9f-11ea-952c-4f254b2bef5a.PNG)
+![4545](https://user-images.githubusercontent.com/41663027/88486996-4bff6580-cf9f-11ea-893c-e1d491884588.PNG)
+
