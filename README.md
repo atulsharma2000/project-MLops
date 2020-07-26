@@ -69,3 +69,9 @@ This .py file will create a result.txt file which will be contaning the accuracy
 - Build pipeline to watch the execution of the jobs 
 ![otupup](https://user-images.githubusercontent.com/41663027/88487759-8b30b500-cfa5-11ea-8b2a-650af4a5c16e.PNG)
 
+𝐂𝐨𝐧𝐜𝐥𝐮𝐬𝐢𝐨𝐧:
+Automated the Machine Learning architecture using Jenkins, now as soon as Developer commits and pushes the files on the GitHub, a docker container will be created with all the required machine learning libraries and model will train automatically with above required accuracy.
+
+# video link
+https://drive.google.com/file/d/1eEGapVk0IzwfyZgkYItfm6EnLTfit-lv/view?usp=sharing
+
