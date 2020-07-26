@@ -63,6 +63,9 @@ This .py file will create a result.txt file which will be contaning the accuracy
 
 
 (8) JOB-4: it will monitor the container fails . If containers fails then this job will re run the containers and will start traning the model again. SO we will add a post buil as Job:2.
-![j3444444](https://user-images.githubusercontent.com/41663027/88487714-22e1d380-cfa5-11ea-9cd9-e51981037289.PNG)
 
+![dhdhjadh](https://user-images.githubusercontent.com/41663027/88487738-5e7c9d80-cfa5-11ea-937d-d36810739172.PNG)
+
+- Build pipeline to watch the execution of the jobs 
+![otupup](https://user-images.githubusercontent.com/41663027/88487759-8b30b500-cfa5-11ea-8b2a-650af4a5c16e.PNG)
 
