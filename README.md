@@ -56,5 +56,13 @@ This .py file will create a result.txt file which will be contaning the accuracy
 
 (7) JOB-3:  this job will check the accuracy from the file result.txt. If the accuracy is less than the required accuracy then this job will automatically start adding the combination of the layers to increase the accuracy of the  model.
 ![j33](https://user-images.githubusercontent.com/41663027/88487426-a948e600-cfa2-11ea-8cc7-df6b08040fa0.PNG)
+- here accuracy is already 98% so tweaking will not be done.
 ![jttjttjt](https://user-images.githubusercontent.com/41663027/88487446-c7aee180-cfa2-11ea-8168-65c5e160fa26.PNG)
+- as our accuracy is good, so it will send a mail by executing sendmail.py file to the devloper
+![maill](https://user-images.githubusercontent.com/41663027/88487523-76532200-cfa3-11ea-9340-2cd4ccade77e.PNG)
+
+
+(8) JOB-4: it will monitor the container fails . If containers fails then this job will re run the containers and will start traning the model again. SO we will add a post buil as Job:2.
+![j3444444](https://user-images.githubusercontent.com/41663027/88487714-22e1d380-cfa5-11ea-9cd9-e51981037289.PNG)
+
 
