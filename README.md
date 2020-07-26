@@ -1,4 +1,4 @@
-                                    𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐨𝐧 𝐨𝐟 𝐌𝐋 𝐰𝐢𝐭𝐡 𝐃𝐞𝐯𝐎𝐩𝐬 𝐮𝐬𝐢𝐧𝐠 𝐎𝐒-𝐥𝐞𝐯𝐞𝐥 𝐯𝐢𝐫𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧
+                                    #𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐨𝐧 𝐨𝐟 𝐌𝐋 𝐰𝐢𝐭𝐡 𝐃𝐞𝐯𝐎𝐩𝐬 𝐮𝐬𝐢𝐧𝐠 𝐎𝐒-𝐥𝐞𝐯𝐞𝐥 𝐯𝐢𝐫𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧
                             
 ![my woo](https://user-images.githubusercontent.com/41663027/88486344-af3ac900-cf9a-11ea-90b0-77c5b6245e2d.png)
 
@@ -28,8 +28,8 @@ There are a number of barriers that prevent organizations from successfully impl
 ![1](https://user-images.githubusercontent.com/41663027/88486594-63891f00-cf9c-11ea-810e-fa058ae9730d.PNG)
 
 (3) after the creation of the image install Jenkins on RHEL8 and start Jenkins services. Jenkins needs java to start services, so install java first. After installation, start Jenkins and copy-paste the IP of Linux on the browser with port 8080(Jenkins work on the port 8080) to access Jenkins GUI. example: 192.162.152.123:8080
-# sudo yum install jenkins java-1.8.0-openjdk-devel   
-# sudo yum install jenkins 
-# sudo systemctl start jenkins
+- sudo yum install jenkins java-1.8.0-openjdk-devel   
+- sudo yum install jenkins 
+- sudo systemctl start jenkins
 
 (4) Now create account on github and make a repository. Give anyname, i have given Project-MLops. Also make a folder in your windows or any os where you are working on machine learning code and paste all the required files in the same folder so that we can connect it with our github repository and push our updated work when ever we want.
